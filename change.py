@@ -1,5 +1,5 @@
 def change():
-    expends = float(input("Ingresar gasto :"))
+    expends = (input("Ingresar gasto :"))
     print(f"{expends}")
 
 
