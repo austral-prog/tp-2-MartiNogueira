@@ -8,9 +8,10 @@ def change():
     print("")
     print("Vuelto")
     print("")
+    vuelto_completo = money - expends
     vuelto_int = int(money - expends)
     print("Pesos:")
-    print(f"{vuelto_int}")
+    print(f"{vuelto_completo}")
     vuelto_float = int((((money - expends) - vuelto_int))*100)
     print("Centavos:")
     print(f"{vuelto_float}")
