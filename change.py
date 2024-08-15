@@ -14,4 +14,4 @@ def change():
     print(f"{vuelto_completo}")
     vuelto_float = int((((money - expends) - vuelto_int))*100)
     print("Centavos:")
-    print(f"{vuelto_float}")
+    print(f" {vuelto_float}")
