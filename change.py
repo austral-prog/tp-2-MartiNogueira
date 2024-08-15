@@ -1,17 +1,15 @@
 def change():
-    print("Ingresar gasto:")
-    expends = 23.75
-    print(f"{expends}")
-    print("Dinero recibido")
+    expense = 23.75
     money = 100
-    print(f"{money}")
-    print("")
+
+    print("Ingresar gasto:")
+    print(expense)
+    print("Dinero recibido")
+    print(money)
+    print()
     print("Vuelto")
-    print("")
-    vuelto_completo = money - expends
-    vuelto_int = int(money - expends)
+    print()
     print("Pesos:")
-    print(f"{vuelto_completo}")
-    vuelto_float = int((((money - expends) - vuelto_int))*100)
+    print(int(money - expense))
     print("Centavos:")
-    print(f" {vuelto_float}")
+    print(int((money - expense - int(money - expense)) * 100))
