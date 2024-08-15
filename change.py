@@ -1,15 +1,24 @@
 def change():
-    expense = 23.75
-    money = 100
-
+    
     print("Ingresar gasto:")
-    print(expense)
+    expends = 23.75
+    print(f"{expends}")
+    
     print("Dinero recibido")
-    print(money)
-    print()
+    money = 100
+    print(f"{money}")
+    
+    print("")
     print("Vuelto")
-    print()
+    print("")
+    
+    vuelto_completo = money - expends
+    pesos = int(vuelto_completo)  
+    centavos = int(round((vuelto_completo - pesos) * 100))  # Parte decimal (centavos)
+    
     print("Pesos:")
-    print(int(money - expense))
+    print(f"{pesos}")
     print("Centavos:")
-    print(int((money - expense - int(money - expense)) * 100))
+    print(f"{centavos}")
+
+change()
